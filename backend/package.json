@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "test": "jest --coverage --runInBand"
+        "test": "jest --coverage --runInBand",
+        "build": "cd ../frontend && npm install && npm run build",
+        "postinstall": "npm install"
     },
     "keywords": [
         "backend",

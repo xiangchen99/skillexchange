@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-front": "cd my-app && npm start",
-    "start-back": "cd backend && npm start",
-    "start": "npm run start-front & npm run start-back"
+    "start-back": "cd backend && npm build",
+    "start": "cd backend && npm run build"
   },
   "keywords": [],
   "author": "",
